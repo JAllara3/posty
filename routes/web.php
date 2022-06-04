@@ -23,6 +23,9 @@ use App\Http\Controllers\Auth\RegisterController;
 Route::get('/', function() {
     return view('home');
 })->name('home');
+Route::get('/home', function() {
+    return view('home');
+})->name('home');
 
 //dashboard route (sign in page)
 Route::get('/dashboard', [DashboardController::class, 'index'])

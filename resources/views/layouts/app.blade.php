@@ -12,7 +12,7 @@
         <nav class="p-6 bg-gray-100 flex justify-between mb-3">
             <ul class="flex items-center">
                 <li>
-                    <a href="" class="p-3">Home</a>
+                    <a href="/home" class="p-3">Home</a>
                 </li>
                 <li>
                     <a href="{{ route('dashboard') }}" class="p-3">Dashboard</a>
